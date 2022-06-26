@@ -1,0 +1,42 @@
+body {
+    padding: 9rem 7rem 7rem 7rem ;
+    overflow-x: hidden;
+    font: 700 1.5rem "Times new roman", sans-serif;
+    background-color:lightseagreen; 
+    background-size: 1rem 3rem;
+}
+
+.converter {
+    background-color: #9fcbb3de;
+    margin-bottom: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border: 0.1rem solid #170404;
+    width: 100%
+}
+
+input {
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    outline: black;
+    border-radius: 0.1rem;
+    width: 20rem;
+    text-indent: 0.2rem;
+    background-color: #f1f1f1;
+}
+
+
+input:focus {
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 11px;
+    }
+}
